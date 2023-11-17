@@ -1,0 +1,25 @@
+.form {
+  padding: 30px;
+  background-color: #fff;
+  width: 100%;
+  max-width: 350px;
+  border-radius: 4px;
+  background-color: var(--color-box);
+}
+
+.title {
+  margin-bottom: 20px;
+  color: #373b57;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.fieldGroup {
+  margin-bottom: 20px;
+}
+
+.button {
+  color: #fff;
+  background-color: #04ac01;
+  border-radius: 10px;
+}

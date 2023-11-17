@@ -1,0 +1,26 @@
+.title {
+  font-size: 32px;
+  font-weight: 700;
+  color: var(--color-black);
+  margin-bottom: 36px;
+}
+
+.menu {
+  width: 100%;
+  padding: 20px 71px 41px 69px;
+}
+
+.controls {
+  margin-bottom: 16px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.items {
+  width: 100%;
+  display: flex;
+}
+
+.withTransition {
+  transition: all 0.3s ease;
+}

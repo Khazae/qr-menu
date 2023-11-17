@@ -1,0 +1,17 @@
+.wrapper {
+  width: 177px;
+  height: auto;
+  padding: 10px;
+  background-color: #f8f8f8;
+  border-radius: 10px;
+}
+
+.title {
+  margin-bottom: 3px;
+}
+
+.image {
+  width: 157px;
+  height: 113px;
+  margin-bottom: 5px;
+}

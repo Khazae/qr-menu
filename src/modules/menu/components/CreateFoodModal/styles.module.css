@@ -1,0 +1,21 @@
+.row {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 43px;
+}
+
+.createFoodModal {
+  width: 100%;
+  max-width: 419px;
+  margin-right: 148px;
+}
+
+.title {
+  text-align: center;
+  margin-bottom: 47px;
+}
+
+.button {
+  color: var(--color-white);
+}

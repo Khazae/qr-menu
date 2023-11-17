@@ -1,0 +1,5 @@
+.wrapper {
+  display: grid;
+  grid-template-columns: 257px 1fr;
+  background-color: var(--color-secondary-background);
+}

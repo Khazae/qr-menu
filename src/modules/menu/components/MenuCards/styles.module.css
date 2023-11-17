@@ -1,0 +1,27 @@
+.title {
+  text-align: center;
+  margin-bottom: 23px;
+}
+
+.items {
+  display: flex;
+  flex-direction: column;
+}
+
+.content {
+  margin-bottom: 50px;
+}
+
+.item {
+  margin-bottom: 50px;
+}
+
+.cardItems {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 18px;
+}
+
+.cardStyle {
+  height: 100%;
+}

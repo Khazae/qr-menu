@@ -1,0 +1,23 @@
+.wrapper {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.icon {
+  margin-left: 14px;
+  font-size: 18px;
+  cursor: pointer;
+  transition: 200ms;
+}
+
+.icon:hover {
+  opacity: 0.6;
+}
+
+.editIcon {
+  color: #ffc53d;
+}
+
+.deleteIcon {
+  color: #ff4d4f;
+}

@@ -1,0 +1,43 @@
+.item {
+  width: 100%;
+  margin-bottom: 10px;
+  display: block;
+}
+
+.link {
+  width: 100%;
+  padding: 11px 10px 11px 36px;
+  display: flex;
+  align-items: center;
+  color: var(--color-black);
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1;
+  transition: 300ms;
+  border-radius: 4px;
+}
+
+.linkActive {
+  position: relative;
+  color: var(--color-primary);
+  background-color: var(--color-primary-opacity);
+  transition: width 0.15s ease-out, color 0.5s, background-color 0.5s;
+}
+
+.linkActive::after {
+  content: "";
+  width: 5px;
+  height: 24px;
+  border-radius: 5px;
+  background-color: var(--color-primary);
+  position: absolute;
+  top: 9px;
+  left: 10px;
+}
+
+.icon {
+  margin-right: 10px;
+  font-size: 16px;
+  vertical-align: top;
+}

@@ -1,0 +1,12 @@
+.title {
+  font-size: 32px;
+  font-weight: 700;
+  color: var(--color-black);
+  margin-bottom: 36px;
+}
+
+.controls {
+  margin-bottom: 16px;
+  display: flex;
+  justify-content: flex-end;
+}
